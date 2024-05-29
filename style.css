@@ -1,0 +1,117 @@
+* {
+    padding:0;     
+    margin:0;
+}
+
+body {
+background-color:#200f25;
+
+    background-image: url("图片/beijing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+header {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+
+    height: 80px;
+
+    width: 1647.5px;
+    
+    background-color:#200f25;
+
+    border: 0px 0px 6px 0px #c1aad7 solid;
+
+    padding: 10px 30px;
+}
+
+header ul{
+    
+    position: absolute;
+
+    right: 5vw;
+    top:0;
+
+    line-height: 105px;
+
+
+}
+
+header li{
+
+    display: inline;
+
+    margin: 0 2px;
+
+    
+}
+
+header a{
+    color: #8090d9;
+
+    
+
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+h1{
+    color: #8090d9;
+
+    margin-left: 5%;
+
+   display: flex;
+   align-items: center;
+
+   line-height: 80px;
+}
+
+section {
+    
+}
+
+.first {                    
+    height: 768px;
+    width: 98vw;
+    margin-top: 10px;
+
+    border: 6px #c1aad7 solid;
+    border-radius: 20px;
+    
+
+    margin-left: auto;
+    margin-right: auto;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.first h2{
+    
+    color: #8090d9;
+    font-size: 100px;
+}
+
+.first p{
+    color: #8090d9;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.first a{
+    
+    margin-top: 80px;
+}
+
+footer {
+
+}
